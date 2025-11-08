@@ -1,0 +1,35 @@
+.colornav {
+    background-color: rgb(235, 156, 168);
+}
+.nav-link {
+    color: mintcream !important;
+}
+.nav-link:hover{
+    color: grey !important;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-content {
+    background: url("img/IMG_5322.jpg")no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 40px;
+}
+.intro {
+    font-size: 20px;
+    margin: 0 auto 10px;
+    margin-top: 70px;
+    max-width: 700px;
+    line-height: 1.6;
+}
